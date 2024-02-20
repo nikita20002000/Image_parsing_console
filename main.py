@@ -16,7 +16,7 @@ def info_collector() -> dict:
     return arguments
 
 
-def parsing_process(parser):
+def parsing_process(parser) -> None:
     filters = dict(
         size='large',
         color='orange',
@@ -79,7 +79,7 @@ def main(user_choice):
                        'ERROR MES: ' + e
 
         case '2':
-            baidu_p = BingImageCollector(
+            baidu_p = BaiduImageCollector(
                 feeder_threads=data['feeder_threads'],
                 parser_threads=data['parser_threads'],
                 downloader_threads=data['downloader_threads'],
