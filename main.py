@@ -95,8 +95,13 @@ def main(user_choice):
 
 
 if __name__ == "__main__":
-    a: str = input('Выберите желаемый парсер 0 - 2 \n'
-                   '0 - Google\n'
-                   '1 - Bing\n'
-                   '2 - Baidu\n')
+    while True:
+        a: str = input('Выберите желаемый парсер 0 - 2 \n'
+                       '0 - Google\n'
+                       '1 - Bing\n'
+                       '2 - Baidu\n')
+        if a in ['0', '1', '2']:
+            break
+        else:
+            print('Проверьте правильность введенных данных и попробуйте еще раз...')
     main(a)
