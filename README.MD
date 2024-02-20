@@ -3,9 +3,8 @@
 ## Содержание
 - [Технологии](#технологии)
 - [Начало работы](#начало-работы)
-- [Contributing](#contributing)
-- [To do](#to-do)
-- [Команда проекта](#команда-проекта)
+- [Требования](#to-do)
+- [FAQ](#FAQ)
 
 ## Технологии
 - [icrawler](https://icrawler.readthedocs.io/en/latest/)
@@ -32,6 +31,9 @@ python main.py
 python3 main.py
 ```
 
+## Требования
+python версии 3 или выше<br>
+pip версии 21 или выше
 
-## FAQ 
-Классы GoogleImageCollector, BingImageCollector и BaiduImageCollector полностью наследуют функционал исходных классов из библиотеки icrawler
+## FAQ
+Классы GoogleImageCollector, BingImageCollector и BaiduImageCollector полностью наследуют функционал исходных классов из библиотеки icrawler для более подробной информации рекомендуется ознакомиться с документацией на сайте https://icrawler.readthedocs.io/en/latest/

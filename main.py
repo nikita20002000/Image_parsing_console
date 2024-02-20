@@ -1,6 +1,6 @@
 from img_collector import GoogleImageCollector
 from img_collector import BingImageCollector
-from img_collector import BaiduImageCrawler
+from img_collector import BaiduImageCollector
 
 
 def info_collector() -> dict:
